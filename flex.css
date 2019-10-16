@@ -3,12 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     border: 0;
-    
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 body{
     font-size: 16px;
-    font-family: 'Josefin Sans', sans-serif;
+    
     font-weight: 300;
 }
 
@@ -24,7 +24,7 @@ header .pic{
 
 header .content{
     flex: 1;
-    padding: 5% 10%;
+    padding:5%;
     background-image: url(images/bg-pattern-desktop.svg);
     background-size: cover
 }
@@ -57,4 +57,25 @@ header .content .head2 {
 header .content .text{
     color: hsl(0, 36%, 70%);
     margin-top: 10px;
+    margin-left: 25px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+}
+
+.form{
+    margin-top: 30px;
+}
+
+input[type=text].email{
+    border: 1px solid  hsl(0, 36%, 70%);
+    width: 50%;
+    border-radius: 30px;
+    height: 50px;
+    padding: 0 25px;
+   
+}
+input[type=text].email:focus{
+    border: 3px solid hsl(0, 36%, 70%);
+   
+   
 }
